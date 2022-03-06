@@ -37,24 +37,26 @@
 
             img {
                 margin-right: 10px;
+                transition: 0.3s ease;
+                &:hover {
+                    background-color: $blue;
+                    border-radius: 50%
+                }
             }
 
             button {
-                background-color: $blue;
-                border: none;
-                color: $white;
-                width: 139px;
-                height: 50px;
+                @include buttonStyle(139px, 50px);
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 30px;
                 img {
                     margin-right: 10px;
+                    
                 }
             }
         }
-
+        
 
         .right-hero {
             width: 759px;
@@ -98,6 +100,11 @@
                     margin-top: 20px;
                     font-size: 16px;
                     font-weight: 500;
+                    transition: 0.3s ease;
+                    cursor: pointer;
+                    &:hover {
+                        margin-left: 30px;
+                    }
                 }
                 p  {
                     color: $gray;
@@ -129,7 +136,7 @@
 
         .block-footer-main {
             color: $white;
-            margin-top: -50px;
+            margin-top: -40px;
             
             .circle {
                 background-color: $white;
@@ -150,10 +157,17 @@
             justify-content: center;
             align-items: center;       
             height: 30px;
+            transition: 0.3s ease;
             cursor: pointer;
+            &:hover {
+                margin-left: 20px;
+                color: $gray;
+            }
+            
             
             .right-icon-white {
                 margin-left: 10px;
+                
             }
         }
 

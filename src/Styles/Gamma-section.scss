@@ -1,0 +1,27 @@
+@import "../Helpers/Helpers.scss";
+
+
+.gamma-section {
+    margin: 100px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        h6 {
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 60px;
+        }
+        p {
+            width: 1000px;
+            color: $gray;
+            margin-bottom: 20px;
+        }
+        button {
+            @include buttonStyle(146px, 50px);
+        }
+        
+    }
+}

@@ -18,6 +18,10 @@
             a {
                 margin-right: 50px;
                 color: $black;
+                transition: 0.3s ease;
+                &:hover {
+                    color: $blue;
+                }
             }
         }
     }
@@ -27,6 +31,8 @@
         align-items: center;
         img {
             margin: 0 15px;
+            cursor: pointer;
+            transition: 0.3s ease;
         }
         .angle-down {
             margin: 0;
@@ -43,6 +49,7 @@
             width: 234px;
             height: 91px;
             font-size: 18px;
+            cursor: pointer;
         }
     }
 }

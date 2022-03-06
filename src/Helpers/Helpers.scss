@@ -29,3 +29,22 @@ body {
     max-width: 1518px;
     margin: 0 auto;
 }
+
+
+
+
+// Buttons
+@mixin buttonStyle($width, $height) {
+    color: $white;
+    border: none;
+    background-color: $blue;
+    width: $width;
+    height: $height;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,26 @@
+@import "../Helpers/Helpers.scss";
+
+.stepenice-seciton {
+    margin: 100px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .content-stepenice {
+            width: 614px;
+            h2 {
+                font-size: 50px;
+                font-weight: 400;
+            }
+            p {
+                color: $gray;
+                margin: 20px 0;
+            }
+            button {
+                @include buttonStyle(146px, 50px);
+            }
+        }
+    }
+
+}
