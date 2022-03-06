@@ -1,10 +1,49 @@
 @import "../Helpers/Helpers.scss";
 
-.nav {
-   background-color: $blue;
+.navigation-section {
+    background-color: $white;
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
 
-   a {
-    color: $white;
+    .nav-ul {
+        display: flex;
+        align-items: center;
+        
+        li {
+            margin-left: 100px;
+            a {
+                margin-right: 50px;
+                color: $black;
+            }
+        }
+    }
 
-   }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0 15px;
+        }
+        .angle-down {
+            margin: 0;
+        }
+        .hamburger-btn {
+            margin-left: 38px;
+            margin-right: 50px;
+        }
+
+        .nav-btn {
+            background-color: $blue;
+            color: $white;
+            border: none;
+            width: 234px;
+            height: 91px;
+            font-size: 18px;
+        }
+    }
 }
+
