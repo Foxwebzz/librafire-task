@@ -8,7 +8,7 @@ function Navbar() {
     <div className='navigation-section'>
         <div className="container">
             <ul className='nav-ul'>
-            <img src="images/Logo.png" alt="" />
+            <img className='logo-img' src="images/Logo.png" alt="" />
                 <li>
                     <a href="/assortiman">Assortiment</a>
                     <a href="/Vestigingen">Vestigingen</a>

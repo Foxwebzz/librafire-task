@@ -38,6 +38,7 @@
             img {
                 margin-right: 10px;
                 transition: 0.3s ease;
+                cursor: pointer;
                 &:hover {
                     background-color: $blue;
                     border-radius: 50%
@@ -171,6 +172,32 @@
             }
         }
 
+    }
+}
+
+
+// responsive herosection
+@media (max-height: 870px) {
+    .hero-section {
+        .container {
+            padding-top: 60px;
+        }
+    }
+}
+@media (max-height: 830px) {
+    .hero-section {
+        .container {
+            padding: 0 40px;
+            padding-top: 20px;
+        }
+
+        .right-hero {
+            height: 520px;
+            
+            .window-hero-img {
+                top: 50px;
+            }
+        }
     }
 }
    
