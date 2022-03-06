@@ -1,0 +1,162 @@
+@import "../Helpers/Helpers.scss";
+
+.hero-section {
+    height: 90vh;
+    background-image: url("../images/hero-image-main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+        .overlay-hero {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .container {
+            padding-top: 95px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left-hero {
+            width: 486px;
+            color: $white;
+            z-index: 100;
+
+            p {
+                margin: 20px 0 30px;
+            }
+
+            img {
+                margin-right: 10px;
+            }
+
+            button {
+                background-color: $blue;
+                border: none;
+                color: $white;
+                width: 139px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+
+        .right-hero {
+            width: 759px;
+            height: 570px;
+            background-color: $white;
+            position: relative;
+
+            .window-hero-img {
+                position: absolute;
+                top: 85px;
+                left: -110px;
+                width: 516px;
+                height: 410px;
+                z-index: 2;
+            }
+            .waves-hero {
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 1;
+            }
+
+            .content-right-hero {
+                width: 330px;
+                position: absolute;
+                bottom: 60px;
+                right: 30px;
+                h4 {
+                    color: $blue;
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                }
+                h5 {
+                    font-size: 22px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+                .view-btn-hero {
+                    color: $blue;
+                    margin-top: 20px;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                p  {
+                    color: $gray;
+                    line-height: 30px;
+                    font-size: 18px;
+                    font-weight: 300;
+                    display: flex;
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+                
+            }
+        }
+
+    .footer-hero {
+        background-color: $blue;
+        max-width: 1518px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        right: 0px;
+        height: 80px;
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .block-footer-main {
+            color: $white;
+            margin-top: -50px;
+            
+            .circle {
+                background-color: $white;
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            
+
+        }
+
+        .content-block-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;       
+            height: 30px;
+            cursor: pointer;
+            
+            .right-icon-white {
+                margin-left: 10px;
+            }
+        }
+
+    }
+}
+   
