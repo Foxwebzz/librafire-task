@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1518px;
+  margin: 0 auto;
+}
+
+.teverden-main-bg {
+  background-image: url("../images/teeverden-bg.png");
+  height: 876px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.teverden-main-bg .wave-blue {
+  position: absolute;
+  bottom: -80px;
+  right: 190px;
+  z-index: -2;
+}
+
+.teverden-main-bg .overlay-teverden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.teverden-main-bg .container {
+  padding-top: 80px;
+  height: 100%;
+  position: relative;
+}
+
+.teverden-main-bg .container h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.teverden-main-bg .container .button-teverden {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.teverden-main-bg .container button {
+  color: #FFFFFF;
+  border: none;
+  background-color: #304DE5;
+  width: 238px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 18px;
+}
+
+.teverden-main-bg .container button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.teverden-main-bg .container .images-boxes-taverden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.teverden-main-bg .container .images-boxes-taverden:nth-child(2) {
+  position: relative;
+}
+
+.teverden-main-bg .container .images-boxes-taverden:nth-child(2) .left-circle {
+  position: absolute;
+  top: 180px;
+  left: -50px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.teverden-main-bg .container .images-boxes-taverden:nth-child(2) .left-circle:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.teverden-main-bg .container .images-boxes-taverden:nth-child(2) .right-circle {
+  position: absolute;
+  top: 180px;
+  right: -50px;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.teverden-main-bg .container .images-boxes-taverden:nth-child(2) .right-circle:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.teverden-main-bg .container .box-taverden {
+  width: 486px;
+  height: 525px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.teverden-main-bg .container .box-taverden .logo-gray {
+  position: absolute;
+  top: 67px;
+  left: 30px;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden {
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden p {
+  color: #706E7E;
+  margin-top: 10px;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden .view-btn-hero {
+  color: #304DE5;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden .view-btn-hero:hover {
+  margin-left: 10px;
+}
+
+.teverden-main-bg .container .box-taverden .content-box-taverden .view-btn-hero img {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Tevedren-section.css.map */

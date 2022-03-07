@@ -34,10 +34,10 @@ body {
 
 
 // Buttons
-@mixin buttonStyle($width, $height) {
-    color: $white;
+@mixin buttonStyle($width, $height, $color, $bgColor) {
+    color: $color;
     border: none;
-    background-color: $blue;
+    background-color: $bgColor;
     width: $width;
     height: $height;
     margin-top: 10px;

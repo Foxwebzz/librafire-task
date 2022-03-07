@@ -46,7 +46,7 @@
             }
 
             button {
-                @include buttonStyle(139px, 50px);
+                @include buttonStyle(139px, 50px, $white, $blue);
                 display: flex;
                 justify-content: center;
                 align-items: center;

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1518px;
+  margin: 0 auto;
+}
+
+.gamma-section {
+  margin: 100px 0;
+}
+
+.gamma-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.gamma-section .container h6 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.gamma-section .container p {
+  width: 1000px;
+  color: #706E7E;
+  margin-bottom: 20px;
+}
+
+.gamma-section .container button {
+  color: #FFFFFF;
+  border: none;
+  background-color: #304DE5;
+  width: 146px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.gamma-section .container button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-height: 830px) {
+  .gamma-section .container {
+    padding: 0 40px;
+  }
+}
+/*# sourceMappingURL=Gamma-section.css.map */

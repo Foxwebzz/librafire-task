@@ -19,7 +19,7 @@
             margin-bottom: 20px;
         }
         button {
-            @include buttonStyle(146px, 50px);
+            @include buttonStyle(146px, 50px, $white, $blue);
         }
         
     }

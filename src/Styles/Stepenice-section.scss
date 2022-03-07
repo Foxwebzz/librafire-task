@@ -18,7 +18,7 @@
                 margin: 20px 0;
             }
             button {
-                @include buttonStyle(146px, 50px);
+                @include buttonStyle(146px, 50px, $white, $blue);
             }
         }
     }

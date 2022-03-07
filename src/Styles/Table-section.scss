@@ -1,0 +1,68 @@
+@import "../Helpers/Helpers.scss";
+
+
+.table-section-main {
+    margin: 100px 0;
+    position: relative;
+    padding: 100px 0;
+
+    .table-images-section {
+        margin: 100px 0;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        overflow: hidden;
+    }
+
+    .arrow-table-section {
+        width: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        img{
+            transition: 0.3s ease;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .bg-blue-div {
+        position: absolute;
+        width: 1305px;
+        height: 1642px;
+        right: 0;
+        top: 0;
+        background-color: $blue;
+        z-index: -1;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .table-content {
+            width: 678px;
+
+            h2 {
+                font-size: 50px;
+                font-weight: 400;
+                color: $white;
+            }
+            p {
+                color: $gray;
+                margin: 20px 0;
+                color: $white;
+            }
+            button {
+                @include buttonStyle(146px, 50px, $blue, $white);
+            }
+        }
+    }
+}
