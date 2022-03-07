@@ -6,7 +6,7 @@ function TeverdenSection() {
     <div className='teverden-main-bg'>
         <div className="overlay-teverden"></div>
         <img className='wave-blue' src="images/wave-blue.svg" alt="" />
-        
+
         <div className="container">
             <h2>Tevreden klanten vertellen</h2>
 
@@ -51,9 +51,8 @@ function TeverdenSection() {
                 </div>
             </div>
 
-            <div className="button-teverden">
+            <div className="button-center">
                 <button>Getuigenissen klanten</button>
-                
             </div>
         </div>
     </div>

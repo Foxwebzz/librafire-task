@@ -1,3 +1,4 @@
+import BezoekSection from "./Components/BezoekSection";
 import GammaSection from "./Components/GammaSection";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
@@ -14,6 +15,7 @@ function App() {
         <TableSection />
         <StepeniceSection />
         <TeverdenSection />
+        <BezoekSection />
     </div>
   );
 }

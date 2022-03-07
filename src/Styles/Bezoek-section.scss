@@ -1,0 +1,70 @@
+@import "../Helpers/Helpers.scss";
+
+.bezoek-section-main {
+    margin-bottom: 100px;
+
+    .container  {
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 400;
+            color: $black;
+            
+        }
+        button {
+            @include buttonStyle(198px, 50px, $white, $blue);
+        }
+
+        .bezoek-boxes {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .bezoek-box {
+            width: 486px;
+            height: 569px;
+            background-color: $blueWhite;
+            padding: 30px;
+
+            h3 {
+                font-weight: 500;
+                font-size: 22px;
+                color: $black;
+                margin-bottom: 40px;
+            }
+
+            .contact-content {
+                display: flex;
+                align-items: center;
+                margin-bottom: 26px;
+                
+                p {
+                    margin-left: 15px;
+                    color: $gray;
+                }
+                h4 {
+                    margin-left: 15px;
+                    color: $black;
+                    font-weight: 500;
+                }
+            }
+            .contact-content:nth-child(5) {
+                margin-bottom: 0;
+            }
+            .content-time-icon {
+                margin-left: 52px;
+                color: $gray;
+                a {
+                    text-decoration: underline;
+                }
+                h4 {
+                    margin-top: 10px;
+                    color: $black;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
