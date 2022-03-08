@@ -64,3 +64,32 @@
         }
     }
 }
+
+// responsive width
+@media (max-width: 1514px) {
+    .news-section-main {
+        .container  {
+            gap: 0 40px;
+            .block-images-news {
+                gap: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+// responsive height
+@media (max-height: 830px) {
+    .news-section-main {
+        .container  {
+            .block-images-news {
+                gap: 20px;
+            }
+        }
+        .container {
+            padding: 0 40px;
+        }   
+    }
+}

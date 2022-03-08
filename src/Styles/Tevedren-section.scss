@@ -119,10 +119,24 @@
     }
 }
 
+// responsive width
+@media (max-width: 1514px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 943px) {
+    .container {
+        .images-boxes-taverden {
+            flex-direction: column;
+        }
+    }
+}
 
 // responsive height
 @media (max-height: 830px) {
     .teverden-main-bg {
+        margin-top: 100px;
         .container {
             padding: 0 40px;
             padding-top: 80px;

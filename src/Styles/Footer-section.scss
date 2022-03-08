@@ -126,3 +126,43 @@
         }
     }
 }
+
+// responsive width
+@media (max-width: 1514px) {
+    .footer-section-main {
+        .container {
+            padding: 0 40px;
+
+            .main-footer-flex {
+                gap: 20px;
+            }
+        } 
+    }
+}
+@media (max-width: 1364px) {
+    .footer-section-main {
+        .container {
+            .main-footer-flex {
+                gap: 20px;
+                .left-side-footer {
+                    flex-direction: column;
+                }
+                .right-side-footer  {
+                    flex-direction: column;
+                }
+
+            }
+        } 
+    }
+}
+
+
+
+// responsive height
+@media (max-height: 830px) {
+    .footer-section-main {
+        .container {
+            padding: 0 40px;
+        } 
+    }
+}

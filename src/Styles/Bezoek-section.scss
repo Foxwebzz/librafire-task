@@ -68,7 +68,13 @@
         }
     }
 }
-
+// responsive width
+@media (max-width: 1383px) {
+    .bezoek-section-main .container .bezoek-box {
+        padding: 10px;
+        height: 700px;
+    }
+}
 // responsive height
 @media (max-height: 830px) {
     .bezoek-section-main {
