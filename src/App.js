@@ -4,8 +4,8 @@ import GammaSection from "./Components/GammaSection";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
 // import NewsSection from "./Components/NewsSection";
-// import StepeniceSection from "./Components/StepeniceSection";
-// import TableSection from "./Components/TableSection";
+import StepeniceSection from "./Components/StepeniceSection";
+import TableSection from "./Components/TableSection";
 // import TeverdenSection from "./Components/TeverdenSection";
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Herosection />
         <GammaSection />
-        {/* <TableSection />
+        <TableSection />
         <StepeniceSection />
-        <TeverdenSection />
+        {/* <TeverdenSection />
         <BezoekSection />
         <NewsSection />
         <FooterSection /> */}

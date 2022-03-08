@@ -49,7 +49,7 @@ body {
 }
 
 .stepenice-seciton .container .content-stepenice {
-  width: 614px;
+  max-width: 614px;
 }
 
 .stepenice-seciton .container .content-stepenice h2 {
@@ -69,6 +69,7 @@ body {
   width: 146px;
   height: 50px;
   margin-top: 10px;
+  font-size: 18px;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -79,7 +80,49 @@ body {
           transform: scale(1.1);
 }
 
+@media (max-width: 1514px) {
+  .stepenice-seciton .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .stepenice-seciton .container {
+    gap: 20px;
+  }
+  .stepenice-seciton .container .content-stepenice {
+    max-width: 600px;
+  }
+  .stepenice-seciton .container img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .stepenice-seciton .container img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 831px) {
+  .stepenice-seciton .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .stepenice-seciton .container .content-stepenice h2 {
+    font-size: 30px;
+  }
+  .stepenice-seciton .container img {
+    width: 100%;
+  }
+}
+
 @media (max-height: 830px) {
+  .stepenice-seciton {
+    margin: 0;
+  }
   .stepenice-seciton .container {
     padding: 0 40px;
   }
