@@ -1,4 +1,5 @@
 import BezoekSection from "./Components/BezoekSection";
+import FooterSection from "./Components/FooterSection";
 import GammaSection from "./Components/GammaSection";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
@@ -18,6 +19,7 @@ function App() {
         <TeverdenSection />
         <BezoekSection />
         <NewsSection />
+        <FooterSection />
     </div>
   );
 }
