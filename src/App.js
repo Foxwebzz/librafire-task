@@ -2,6 +2,7 @@ import BezoekSection from "./Components/BezoekSection";
 import GammaSection from "./Components/GammaSection";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
+import NewsSection from "./Components/NewsSection";
 import StepeniceSection from "./Components/StepeniceSection";
 import TableSection from "./Components/TableSection";
 import TeverdenSection from "./Components/TeverdenSection";
@@ -16,6 +17,7 @@ function App() {
         <StepeniceSection />
         <TeverdenSection />
         <BezoekSection />
+        <NewsSection />
     </div>
   );
 }

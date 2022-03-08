@@ -12,7 +12,7 @@
             bottom: -80px;
             right: 190px;
             z-index: -2;
-        }
+    }
 
     .overlay-teverden {
         position: absolute;
@@ -116,5 +116,22 @@
                 }
             }
         }
+    }
+}
+
+
+// responsive height
+@media (max-height: 830px) {
+    .teverden-main-bg {
+        .container {
+            padding: 0 40px;
+            padding-top: 80px;
+        }
+        .wave-blue {
+            position: absolute;
+            bottom: -80px;
+            right: 45px;
+            z-index: -2;
+        }   
     }
 }

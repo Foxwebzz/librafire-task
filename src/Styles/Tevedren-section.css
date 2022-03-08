@@ -17,6 +17,21 @@ body {
   margin: 0 auto;
 }
 
+.button-center {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
 .teverden-main-bg {
   background-image: url("../images/teeverden-bg.png");
   height: 876px;
@@ -166,5 +181,18 @@ body {
 
 .teverden-main-bg .container .box-taverden .content-box-taverden .view-btn-hero img {
   margin-left: 10px;
+}
+
+@media (max-height: 830px) {
+  .teverden-main-bg .container {
+    padding: 0 40px;
+    padding-top: 80px;
+  }
+  .teverden-main-bg .wave-blue {
+    position: absolute;
+    bottom: -80px;
+    right: 45px;
+    z-index: -2;
+  }
 }
 /*# sourceMappingURL=Tevedren-section.css.map */

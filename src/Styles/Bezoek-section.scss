@@ -68,3 +68,12 @@
         }
     }
 }
+
+// responsive height
+@media (max-height: 830px) {
+    .bezoek-section-main {
+        .container {
+            padding: 0 40px;
+        }
+    }
+}

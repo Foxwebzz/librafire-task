@@ -1,0 +1,66 @@
+@import "../Helpers/Helpers.scss";
+
+
+.news-section-main {
+    background-color: $blue;
+    color: $white;
+    padding: 80px 0;
+
+    .container {
+
+        button {
+            @include buttonStyle(117px, 50px, $blue, $white);
+            margin-top: 50px;
+        }
+        h2 {
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+    }
+
+    .block-images-news {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .news-content-block {
+            width: 486px;
+            h3 {
+                margin-top: 20px;
+                font-weight: 400;
+                font-size: 22px;
+            }
+
+            .content-p-news {
+                color: $somokeBlue;
+                margin-bottom: 20px;
+            }
+
+            .view-btn-hero {
+                display: flex;
+                cursor: pointer;
+                transition: 0.3s ease;
+
+                &:hover {
+                    margin-left: 10px;
+                }
+                img {
+                    margin-left: 15px;
+                }
+            }
+
+            .even-block {
+                display: flex;
+                gap: 15px;
+                margin: 12px 0;
+                span {
+                    background-color: $white;
+                    color: $black;
+                    font-size: 14px;
+                    padding: 2px 5px;
+                }
+            }
+        }
+    }
+}

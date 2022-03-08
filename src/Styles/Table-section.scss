@@ -66,3 +66,13 @@
         }
     }
 }
+
+
+// responsive height
+@media (max-height: 830px) {
+    .table-section-main {
+        .container {
+            padding: 0 40px;
+        }
+    }
+}

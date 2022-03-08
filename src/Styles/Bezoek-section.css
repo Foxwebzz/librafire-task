@@ -17,6 +17,21 @@ body {
   margin: 0 auto;
 }
 
+.button-center {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
 .bezoek-section-main {
   margin-bottom: 100px;
 }
@@ -111,5 +126,11 @@ body {
   margin-top: 10px;
   color: #1C1B21;
   font-weight: 500;
+}
+
+@media (max-height: 830px) {
+  .bezoek-section-main .container {
+    padding: 0 40px;
+  }
 }
 /*# sourceMappingURL=Bezoek-section.css.map */
