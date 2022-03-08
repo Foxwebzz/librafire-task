@@ -9,7 +9,7 @@ function NewsSection() {
 
             <div className="block-images-news">
                 <div className="news-content-block">
-                    <img src="images/news-people.png" alt="" />    
+                    <img className='img-news' src="images/news-people.png" alt="" />    
                     <h3>Opleiding Tridex Deurne</h3>
                     <div className="even-block">
                         <span>EVENEMENTEN</span>
@@ -23,7 +23,7 @@ function NewsSection() {
                 </div>
 
                 <div className="news-content-block">
-                    <img src="images/news-logo.png" alt="" />    
+                    <img className='img-news' src="images/news-logo.png" alt="" />    
                     <h3>Vernieuwde showroom Deurne</h3>
                     <div className="even-block">
                         <span>EVENEMENTEN</span>
@@ -37,7 +37,7 @@ function NewsSection() {
                 </div>
 
                 <div className="news-content-block">
-                    <img src="images/news-hang.png" alt="" />    
+                    <img className='img-news' src="images/news-hang.png" alt="" />    
                     <h3>Vernieuwde showroom Deurne</h3>
                     <div className="even-block">
                         <span>EVENEMENTEN</span>
