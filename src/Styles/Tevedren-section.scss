@@ -123,6 +123,13 @@
 @media (max-width: 1514px) {
     .container {
         padding: 0 40px;
+
+        .box-taverden {
+            width: 300px;
+            .img-tver {
+                width: 100%;
+            }
+        }
     }
 }
 @media (max-width: 943px) {

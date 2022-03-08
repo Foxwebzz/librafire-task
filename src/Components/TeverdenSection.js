@@ -12,7 +12,7 @@ function TeverdenSection() {
 
             <div className="images-boxes-taverden">
                 <div className="box-taverden">
-                    <img src="images/piknik.png" alt="" />
+                    <img className='img-tver' src="images/piknik.png" alt="" />
                     <img className='logo-gray' src="images/gray-logo.png" alt="" />
                     <div className="content-box-taverden">
                         <h4>Robby Stordeur - Toyota Motor Europe</h4>
@@ -27,7 +27,7 @@ function TeverdenSection() {
                     <img className='left-circle' src="images/white-circle-arr.svg" alt="" />
                     <img className='right-circle'  src="images/white-right-arr.png" alt="" />
 
-                    <img src="images/oluk.png" alt="" />
+                    <img className='img-tver' src="images/oluk.png" alt="" />
                     <img className='logo-gray' src="images/gray-logo.png" alt="" />
                     <div className="content-box-taverden">
                         <h4>Steve Drechsel zaakvoerder van SD Dakwerken</h4>
@@ -39,7 +39,7 @@ function TeverdenSection() {
                 </div>
 
                 <div className="box-taverden">
-                    <img src="images/krov.png" alt="" />
+                    <img className='img-tver' src="images/krov.png" alt="" />
                     <img className='logo-gray' src="images/gray-logo.png" alt="" />
                     <div className="content-box-taverden">
                         <h4>Bob Lauman - zaakvoerder Dakrubbercentrale</h4>
