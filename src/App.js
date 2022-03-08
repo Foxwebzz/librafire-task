@@ -1,12 +1,12 @@
-import BezoekSection from "./Components/BezoekSection";
-import FooterSection from "./Components/FooterSection";
+// import BezoekSection from "./Components/BezoekSection";
+// import FooterSection from "./Components/FooterSection";
 import GammaSection from "./Components/GammaSection";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
-import NewsSection from "./Components/NewsSection";
-import StepeniceSection from "./Components/StepeniceSection";
-import TableSection from "./Components/TableSection";
-import TeverdenSection from "./Components/TeverdenSection";
+// import NewsSection from "./Components/NewsSection";
+// import StepeniceSection from "./Components/StepeniceSection";
+// import TableSection from "./Components/TableSection";
+// import TeverdenSection from "./Components/TeverdenSection";
 
 function App() {
   return (
@@ -14,12 +14,12 @@ function App() {
         <Navbar />
         <Herosection />
         <GammaSection />
-        <TableSection />
+        {/* <TableSection />
         <StepeniceSection />
         <TeverdenSection />
         <BezoekSection />
         <NewsSection />
-        <FooterSection />
+        <FooterSection /> */}
     </div>
   );
 }

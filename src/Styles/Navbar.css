@@ -117,4 +117,34 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+
+@media (max-width: 1323px) {
+  .navigation-section .nav-ul li {
+    display: none;
+  }
+}
+
+@media (max-width: 771px) {
+  .navigation-section {
+    padding: 20px 0;
+  }
+  .navigation-section .right-nav .hamburger-btn {
+    margin-right: 10px;
+  }
+  .navigation-section .right-nav .nav-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation-section {
+    padding: 20px 0;
+  }
+  .navigation-section .right-nav img {
+    display: none;
+  }
+  .navigation-section .right-nav .hamburger-btn {
+    display: block;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

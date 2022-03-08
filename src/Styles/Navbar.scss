@@ -64,3 +64,43 @@
     }
 }
 
+
+@media (max-width: 1323px) {
+    .navigation-section {
+        .nav-ul {
+            li {
+
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 771px) {
+    .navigation-section {
+        padding: 20px 0;
+        .right-nav {
+            
+            .hamburger-btn {
+                margin-right: 10px;
+            }
+    
+            .nav-btn {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .navigation-section {
+        padding: 20px 0;
+        .right-nav {
+            
+            img {
+                display: none;
+            }
+            .hamburger-btn {
+                display: block;
+            }
+        }
+    }
+}
